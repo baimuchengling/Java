@@ -16,7 +16,7 @@ public class Lianjieqi extends JFrame {
 		Container c = getContentPane();
 		c.setLayout(null);
 		JButton jb1 = new JButton("°Ù¶È");
-		jb1.setBounds(10, 20, 60, 20);
+		jb1.setBounds(1, 2, 6, 2);
 		c.add(jb1);
 		jb1.addActionListener(new ActionListener() {
 			
@@ -25,7 +25,7 @@ public class Lianjieqi extends JFrame {
 				
 				try {
 
-					Test dog123 =small111 Test();
+					
 
 
 					desktop.browse(new URI("https://www.baidu.com/"));
