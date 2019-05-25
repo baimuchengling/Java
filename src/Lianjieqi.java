@@ -22,8 +22,9 @@ public class Lianjieqi extends JFrame {
 			
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				Desktop desktop = Desktop.getDesktop();
+				
 				try {
+					Test test =new Test();
 					desktop.browse(new URI("https://www.baidu.com/"));
 				} catch (IOException | URISyntaxException e) {
 					// TODO Auto-generated catch block
