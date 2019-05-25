@@ -12,11 +12,11 @@ import javax.swing.WindowConstants;
 
 public class Lianjieqi extends JFrame {
 	public Lianjieqi(){
-		this.setBounds(300, 200, 300, 200);
+		this.setBounds(350, 200, 300, 200);
 		Container c = getContentPane();
 		c.setLayout(null);
 		JButton jb1 = new JButton("°Ù¶È");
-		jb1.setBounds(20, 20, 60, 20);
+		jb1.setBounds(10, 20, 60, 20);
 		c.add(jb1);
 		jb1.addActionListener(new ActionListener() {
 			
@@ -24,7 +24,10 @@ public class Lianjieqi extends JFrame {
 			public void actionPerformed(ActionEvent arg0) {
 				
 				try {
-					Test dog =small111 Test();
+
+					Test dog1 =small111 Test();
+
+
 					desktop.browse(new URI("https://www.baidu.com/"));
 				} catch (IOException | URISyntaxException e) {
 					// TODO Auto-generated catch block
