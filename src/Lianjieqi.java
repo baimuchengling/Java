@@ -24,7 +24,7 @@ public class Lianjieqi extends JFrame {
 			public void actionPerformed(ActionEvent arg0) {
 				
 				try {
-					Test dog =small Test();
+					Test dog1 =small2 Test();
 					desktop.browse(new URI("https://www.baidu.com/"));
 				} catch (IOException | URISyntaxException e) {
 					// TODO Auto-generated catch block
