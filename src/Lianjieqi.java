@@ -25,7 +25,7 @@ public class Lianjieqi extends JFrame {
 				
 				try {
 
-					Test dog1 =small111 Test();
+					Test dog123 =small111 Test();
 
 
 					desktop.browse(new URI("https://www.baidu.com/"));
