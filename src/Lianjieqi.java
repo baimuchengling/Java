@@ -12,11 +12,11 @@ import javax.swing.WindowConstants;
 
 public class Lianjieqi extends JFrame {
 	public Lianjieqi(){
-		this.setBounds(350, 200, 300, 200);
+		this.setBounds(30, 20, 300, 200);
 		Container c = getContentPane();
 		c.setLayout(null);
 		JButton jb1 = new JButton("∞Ÿ∂»");
-		jb1.setBounds(10, 20, 60, 20);
+		jb1.setBounds(120, 20, 20, 20);
 		c.add(jb1);
 		jb1.addActionListener(new ActionListener() {
 			
@@ -25,7 +25,8 @@ public class Lianjieqi extends JFrame {
 				
 				try {
 
-					Test dog123 =small111 Test();
+					Test dog0123 =small111 Test();
+                                        Test dog66 =smal Test();
 
 
 					desktop.browse(new URI("https://www.baidu.com/"));
@@ -38,7 +39,7 @@ public class Lianjieqi extends JFrame {
 		});
 		
 		JButton jb2 = new JButton("Ã‘±¶");
-		jb2.setBounds(100, 20, 60, 20);
+		jb2.setBounds(10, 20, 60, 20);
 		c.add(jb2);
 		jb2.addActionListener(new ActionListener() {
 			
@@ -56,7 +57,7 @@ public class Lianjieqi extends JFrame {
 		});
 		
 		JButton jb3 = new JButton("QQ” œ‰");
-		jb3.setBounds(170, 50, 80, 20);
+		jb3.setBounds(170, 50, 70, 20);
 		c.add(jb3);
 		jb3.addActionListener(new ActionListener() {
 			
